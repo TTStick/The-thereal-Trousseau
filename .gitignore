@@ -1,0 +1,24 @@
+# OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# Editor
+.idea/
+.vscode/
+*.iml
+
+# Local user-specific captures and ad-hoc test files
+# (developers can keep these locally; they never belong in the repo)
+*_b*.png
+*_c*.png
+*_d*.png
+*_e*.png
+*_f*.png
+*_current*.png
+*_ml*.png
+*_mp*.png
+*_tflite*.png
+*_lolita*.png
+*_release-check.png

@@ -1,0 +1,17 @@
+# Xcode build outputs
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+
+# SwiftPM
+.swiftpm/
+.build/
+Packages/
+
+# CocoaPods (if used in future)
+Pods/
+
+# OS noise
+.DS_Store

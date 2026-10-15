@@ -1,0 +1,194 @@
+/* Trousseau — 简体中文本地化
+ *
+ * 键与英文版 Localizable.strings 一一对应,值是中文译文。
+ * `%lld` 是 NSLocalizedString 用来在 Swift 中插入整数的占位符。
+ * 语法上跟英文版的 printf 风格保持一致,这样 `String.localizedStringWithFormat`
+ * 能在两个语言下用同一段代码。
+ */
+
+"Discard & Return" = "放弃并返回";
+"Discard Entry" = "删除此记录";
+"Discard Trip" = "删除此行程";
+"New Trunk" = "新建行程";
+"Edit Trunk" = "编辑行程";
+"New Entry" = "新建记录";
+"Bulk Import" = "批量导入";
+"Archives & Cipher" = "档案与密码";
+"The Curator's Manifesto" = "策展人宣言";
+"The Ethereal Trousseau" = "空灵嫁衣";
+"Journal of Attire" = "着装日志";
+"Trunk & Trousseau" = "行囊与嫁衣";
+"Paper Atelier" = "纸张工坊";
+"Recent Entries" = "近期记录";
+"New journal entry" = "新建日志";
+"New packing list" = "新建打包清单";
+"Export" = "导出";
+"Import" = "导入";
+"Bundle every specimen, journal entry, packing list, and photo into a single .json you can keep in Files, iCloud, or email to yourself." = "将所有藏品、日志、打包清单与照片打包成一个 .json 文件,可存入“文件”、iCloud 或发送到自己邮箱。";
+"Pick a previously-exported .json to overwrite the current wardrobe. Existing files of the same name will be replaced." = "选择之前导出的 .json 来覆盖当前衣橱。同名文件会被替换。";
+"Export Trousseau" = "导出衣橱";
+"Import Backup" = "导入备份";
+"Bundle ready. Save it where you'll find it." = "打包已就绪,请妥善保存。";
+"Trousseau restored." = "衣橱已恢复。";
+"Replace existing wardrobe?" = "确认覆盖现有衣橱?";
+"Importing will overwrite wardrobe_db.json, outfits.json, packing.json, and all photos. This cannot be undone." = "导入会覆盖 wardrobe_db.json、outfits.json、packing.json 以及所有照片,且不可撤销。";
+"Replace" = "覆盖";
+"Cancel" = "取消";
+"Error" = "出错了";
+"OK" = "好";
+"Allow \"Trousseau\" to use your location?" = "允许 “Trousseau” 使用您的位置?";
+"The Ethereal Trousseau reads your approximate location only to suggest what to wear given the current climate. Nothing leaves the device." = "空灵嫁衣仅读取您的大致位置,用来根据当前气候推荐穿着。所有数据均不离开本机。";
+
+/* Plural-style formats */
+"%lld total" = "共 %lld 条";
+"%lld trip on the horizon" = "行程 %lld 个待启程";
+"%lld trips on the horizon" = "行程 %lld 个待启程";
+"%lld specimen" = "%lld 件";
+"%lld specimens" = "%lld 件";
+"%lld selected" = "已选 %lld 张";
+"%lld of %lld tailored" = "已完成 %lld / %lld";
+"%lld days ago" = "%lld 天前";
+"%lld wears" = "穿过 %lld 次";
+"from %@" = "自 %@ 起";
+"until %@" = "至 %@";
+
+/* L10n enum 的动态字符串 */
+"No trunks packed yet." = "还没有任何行程。";
+"Tap + to draft your first trip kit." = "点击 + 创建第一份行程清单。";
+"Empty kit — tap to add specimens." = "清单为空 — 点击添加衣物。";
+"The journal is empty." = "日志为空。";
+"Tap a date above or the + to log today's attire." = "点击上方日期或 + 来记录今日穿着。";
+"Untitled entry" = "未命名记录";
+"Archive New Item" = "收录新衣";
+"Click to select photograph" = "点击选择照片";
+"Selected" = "已选择";
+"Curator's Remarks" = "策展人手记";
+"Enter Curator's Remarks..." = "请写下策展人手记...";
+"Original price (optional)" = "原价(选填)";
+"PERMANENT ARCHIVE" = "永久收录";
+"The Tailor is cutting the pattern..." = "裁缝正在裁剪版型...";
+"The Tailor is working in the back room..." = "裁缝正在内室赶制...";
+"Click to select photographs" = "点击选择多张照片";
+"Tap to change selection" = "点击更换选择";
+"How bulk import works" = "批量导入说明";
+"Each photo is sent through the local tailor (background removal + colour extraction) and archived as its own specimen. Notes, tags, and prices can be filled in afterwards by tapping any item in the collection." = "每张照片都会由本地裁缝处理(抠去背景 + 提取配色),并各自归档为一件藏品。之后可在衣橱中点击任意一件,补充备注、标签与价格。";
+"Some photos could not be processed:" = "以下照片无法处理:";
+"Bulk import — edit me" = "批量导入 — 待编辑";
+"Reading the local climate..." = "正在读取本地气候...";
+"Tap to read the local climate." = "点击读取本地气候。";
+"A heavy coat, wool, and layers. Velvet welcomes the cold." = "厚大衣、羊毛与层层叠搭,丝绒最为相宜。";
+"A wool overcoat over knit; consider trousers over a skirt." = "羊毛大衣配针织,裤装比裙装更合适。";
+"Light layering — a shirt and a jacket will see you through." = "薄薄叠穿,衬衫配夹克即可。";
+"A blouse or a linen piece, comfortable in open air." = "衬衫或亚麻单品,清爽透气。";
+"Linen, cotton, silks in light weaves. Leave the wool at home." = "亚麻、棉、轻薄丝绸,羊毛请留在家中。";
+"The lightest cottons and linens. Pale pigments reflect the sun." = "最轻薄的棉与亚麻,浅色反射阳光。";
+"Keep your trousseau close, or carry it with you." = "让衣橱常伴左右,或随你远行。";
+"I. The Purpose" = "一、立意";
+"II. The Mechanism" = "二、机制";
+"III. Usage Instructions" = "三、使用说明";
+"IV. Paper Atelier" = "四、纸张工坊";
+"V. Archives & Cipher" = "五、档案与密码";
+"In an age of ephemeral data, **The Ethereal Trousseau** serves as a permanent digital sanctuary for textile artistry. It is designed to catalog, preserve, and display the silhouette of garments, stripping away the noise of the physical world to reveal the essence of the design." = "在数据转瞬即逝的时代,**空灵嫁衣** 是纺织艺术的永久数字栖居地。它用于记录、保存与展示衣物的剪影,剥离物质世界的杂音,呈现设计本身的精髓。";
+"This archive utilizes on-device neural processing via Apple's Vision framework. Upon the acquisition of a new image (Capture), the system autonomously isolates the subject from its surroundings (Segmentation), centers the geometry, and mounts it upon a standardized parchment canvas. No data leaves this device; privacy is absolute." = "本档案使用 Apple Vision 框架进行端侧神经处理。获取新图像后(采集),系统会自动将主体与背景分离(分割),居中构图,再镶嵌到标准化的羊皮纸画布之上。数据不离开本机,隐私至上。";
+"**To Archive:** Tap the central \"+\" button on the navigation ribbon. Choose a photograph. The automated tailor will process the garment on-device in seconds." = "**归档:** 点击导航条中央的 “+” 按钮,选择一张照片,自动裁缝会在本机数秒内完成处理。";
+"**To Observe:** Browse the Collection. Tap any specimen to view the Curator's detailed remarks, edit tags, and log a wear." = "**查看:** 浏览衣橱,点击任意一件以查看策展人手记、编辑标签或记录穿着。";
+"Tune the warmth, depth and grain of the parchment to your taste. The change applies across every screen instantly." = "按你的喜好调节羊皮纸的暖度、深度与颗粒,所有界面都会即时同步。";
+"Export the entire trousseau — every specimen, journal entry, packing list, and photo — into a single .json you can keep in Files, iCloud, or email to yourself. Or restore a previous export to overwrite the current collection." = "将整套衣橱——所有藏品、日志、打包清单与照片——打包为一个 .json 文件,存入“文件”、iCloud 或发到自己邮箱。也可导入此文件覆盖现有衣橱。";
+"Est. 2024 — A Personal Collection" = "始于一八六〇 —— 个人收藏";
+"Warmth" = "暖度";
+"Darkness" = "深度";
+"Texture" = "颗粒";
+"Done" = "完成";
+"These three dials shape every screen at once. Choose between a clean, crisp page and one that looks like it survived a small fire." = "这三个旋钮同时作用于每个界面。从干净素雅,到仿佛劫后余生的纸张,任你挑选。";
+"Search Archives..." = "检索档案...";
+"Archive New Specimen" = "收录新衣";
+"Open journal" = "打开日志";
+"Open packing lists" = "打开打包清单";
+"Bulk import photos" = "批量导入照片";
+"All" = "全部";
+"Favorites" = "珍藏";
+"Wishlist" = "心愿单";
+"Collection Empty" = "衣橱为空";
+"Press \"+\" to archive." = "点击 + 开始收录。";
+"MARK TODAY AS WORN" = "今日已穿";
+"COST / WEAR" = "单次成本";
+"WORN" = "穿着";
+"LAST" = "上次";
+"COST" = "原价";
+"WEAR" = "单价";
+"Purchase Ledger" = "购置账册";
+"Purchase Price (CNY)" = "购入价(人民币)";
+"Save Price" = "保存价格";
+"Never worn" = "从未穿过";
+"Today" = "今天";
+"Yesterday" = "昨天";
+"Favorite" = "珍藏";
+"On wishlist" = "在心愿单";
+"Not on wishlist" = "不在心愿单";
+"Today's wear already logged." = "今日穿着已记录。";
+"Logged today as worn." = "已记录为今日穿着。";
+"Archive" = "归档";
+"Census of the Wardrobe" = "衣橱普查";
+"A statistical view of what you own." = "你所拥有的,一览无余。";
+"Most Worn" = "穿着最多";
+"Least Worn" = "穿着最少";
+"Dormant" = "沉睡中";
+"Archived but never worn." = "已归档但从未穿过。";
+"Dominant Pigments" = "主色调";
+"Tinted swatches of the wardrobe's most recurring hues." = "衣橱中出现频率最高的色板。";
+"Specimens by Pigment" = "按主色筛选";
+"No specimens match this colour." = "没有与此色匹配的衣物。";
+"Trip Title" = "行程名称";
+"e.g. Kyoto Autumn" = "例如:京都之秋";
+"Dates" = "日期";
+"Clear" = "清除";
+"Start" = "起";
+"End" = "止";
+"set" = "设定";
+"Specimens" = "衣物";
+"Save" = "保存";
+"Untitled trip" = "未命名行程";
+
+/* Settings / Paper Atelier */
+"Tune the surface to your taste" = "随心调校纸张";
+"Preview" = "预览";
+"Specimen No. 12" = "第十二件藏品";
+"RESET TO DEFAULTS" = "恢复默认";
+"Depth" = "深度";
+"Paper Texture" = "纸张颗粒";
+"Cool ivory at 0, warm amber at 1." = "0 为冷象牙色,1 为暖琥珀色。";
+"Light parchment at 0, candlelit at 1." = "0 为浅色羊皮纸,1 为烛光深色。";
+"Smooth printing at 0, full fibre grain at 1." = "0 为光滑印刷,1 为粗纤维纸。";
+"Cool" = "冷";
+"Warm" = "暖";
+"Light" = "浅";
+"Deep" = "深";
+"Smooth" = "光滑";
+"Rough" = "粗";
+
+/* Census */
+"The Census" = "普查";
+"TOTAL SPECIMENS ARCHIVED" = "已归档藏品总数";
+"Dominant Categories" = "主要类别";
+"No tags yet." = "暂无标签。";
+"The Oracle" = "神谕";
+"Unsure of today's attire? Let the spirits decide." = "不知今日该穿什么?让神谕指引。";
+"CONSULT THE ORACLE" = "求取神谕";
+"TAP A SWATCH" = "点击色板";
+"Archive specimens to populate the palette." = "归档藏品以填充调色板。";
+
+/* Specimen detail */
+"PIGMENT ANALYSIS" = "配色分析";
+"Worn" = "已穿";
+"Discard" = "删除";
+"Required for cost-per-wear calculations." = "用于计算单次穿着成本。";
+"Specimen not found" = "未找到该藏品";
+
+/* Other chrome */
+"No. %lld" = "第 %lld 件";
+"Collection" = "衣橱";
+"Collage" = "拼贴";
+"Census" = "普查";
+"About" = "关于";
+"#%@" = "#%@";
+"%@ of %@" = "%@ / %@";

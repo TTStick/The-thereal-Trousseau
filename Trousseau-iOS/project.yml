@@ -1,0 +1,63 @@
+# project.yml — XcodeGen spec for The Ethereal Trousseau iOS app.
+#
+# Setup:
+#   brew install xcodegen          # one-time
+#   cd Trousseau-iOS
+#   xcodegen generate
+#   open Trousseau.xcodeproj
+#
+# Or use Xcode 16+ File → Import Project, which now reads project.yml directly.
+
+name: Trousseau
+options:
+  bundleIdPrefix: com.ethereal
+  deploymentTarget:
+    iOS: "17.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    TARGETED_DEVICE_FAMILY: "1,2"          # iPhone + iPad
+    ENABLE_PREVIEWS: "YES"
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGNING_REQUIRED: "NO"
+    CODE_SIGN_IDENTITY: ""
+    DEVELOPMENT_TEAM: ""
+
+targets:
+  Trousseau:
+    type: application
+    platform: iOS
+    sources:
+      - path: Trousseau
+        excludes:
+          - "Resources/Fonts/*"
+      - path: Trousseau/Resources/Fonts
+        type: folder
+        buildPhase: resources
+        # Embedded font files are listed as Resources so they are copied into
+        # the bundle; Info.plist UIAppFonts then registers them at runtime.
+    resources:
+      - Trousseau/Resources/Assets.xcassets
+    info:
+      path: Trousseau/Info.plist
+      properties:
+        CFBundleDisplayName: Trousseau
+        UILaunchScreen:
+          UIColorName: ParchmentColor
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIRequiredDeviceCapabilities:
+          - arm64
+        NSPhotoLibraryUsageDescription: "The Ethereal Trousseau needs access to your photos so you can archive garments into your private collection."
+        NSPhotoLibraryAddUsageDescription: "The Ethereal Trousseau needs access to your photos so you can archive garments into your private collection."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ethereal.trousseau
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        INFOPLIST_FILE: Trousseau/Info.plist
+        GENERATE_INFOPLIST_FILE: "NO"

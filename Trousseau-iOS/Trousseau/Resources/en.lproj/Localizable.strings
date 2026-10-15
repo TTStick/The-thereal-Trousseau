@@ -1,0 +1,196 @@
+/* Trousseau — English localisation
+ *
+ * Keys mirror the English literal as it appears in source code so static
+ * `Text("…")` calls localise automatically. Dynamic strings (those built
+ * with `String.localizedStringWithFormat`) live here too; the key is the
+ * printf-style format string.
+ */
+
+"Discard & Return" = "Discard & Return";
+"Discard Entry" = "Discard Entry";
+"Discard Trip" = "Discard Trip";
+"New Trunk" = "New Trunk";
+"Edit Trunk" = "Edit Trunk";
+"New Entry" = "New Entry";
+"Bulk Import" = "Bulk Import";
+"Archives & Cipher" = "Archives & Cipher";
+"The Curator's Manifesto" = "The Curator's Manifesto";
+"The Ethereal Trousseau" = "The Ethereal Trousseau";
+"Journal of Attire" = "Journal of Attire";
+"Trunk & Trousseau" = "Trunk & Trousseau";
+"Paper Atelier" = "Paper Atelier";
+"Recent Entries" = "Recent Entries";
+"New journal entry" = "New journal entry";
+"New packing list" = "New packing list";
+"Export" = "Export";
+"Import" = "Import";
+"Bundle every specimen, journal entry, packing list, and photo into a single .json you can keep in Files, iCloud, or email to yourself." = "Bundle every specimen, journal entry, packing list, and photo into a single .json you can keep in Files, iCloud, or email to yourself.";
+"Pick a previously-exported .json to overwrite the current wardrobe. Existing files of the same name will be replaced." = "Pick a previously-exported .json to overwrite the current wardrobe. Existing files of the same name will be replaced.";
+"Export Trousseau" = "Export Trousseau";
+"Import Backup" = "Import Backup";
+"Bundle ready. Save it where you'll find it." = "Bundle ready. Save it where you'll find it.";
+"Trousseau restored." = "Trousseau restored.";
+"Replace existing wardrobe?" = "Replace existing wardrobe?";
+"Importing will overwrite wardrobe_db.json, outfits.json, packing.json, and all photos. This cannot be undone." = "Importing will overwrite wardrobe_db.json, outfits.json, packing.json, and all photos. This cannot be undone.";
+"Replace" = "Replace";
+"Cancel" = "Cancel";
+"Error" = "Error";
+"OK" = "OK";
+"Allow \"Trousseau\" to use your location?" = "Allow \"Trousseau\" to use your location?";
+"The Ethereal Trousseau reads your approximate location only to suggest what to wear given the current climate. Nothing leaves the device." = "The Ethereal Trousseau reads your approximate location only to suggest what to wear given the current climate. Nothing leaves the device.";
+
+/* Plural-style formats (key = printf format) */
+"%lld total" = "%lld total";
+"%lld trip on the horizon" = "%lld trip on the horizon";
+"%lld trips on the horizon" = "%lld trips on the horizon";
+"%lld specimen" = "%lld specimen";
+"%lld specimens" = "%lld specimens";
+"%lld selected" = "%lld selected";
+"%lld of %lld tailored" = "%lld of %lld tailored";
+"%lld days ago" = "%lld days ago";
+"%lld wears" = "%lld wears";
+"from %@" = "from %@";
+"until %@" = "until %@";
+
+/* Dynamic (L10n enum) — values are the same as keys so the file is also
+   self-documenting. NSLocalizedString looks these up by key. */
+"No trunks packed yet." = "No trunks packed yet.";
+"Tap + to draft your first trip kit." = "Tap + to draft your first trip kit.";
+"Empty kit — tap to add specimens." = "Empty kit — tap to add specimens.";
+"The journal is empty." = "The journal is empty.";
+"Tap a date above or the + to log today's attire." = "Tap a date above or the + to log today's attire.";
+"Untitled entry" = "Untitled entry";
+"Archive New Item" = "Archive New Item";
+"Click to select photograph" = "Click to select photograph";
+"Selected" = "Selected";
+"Curator's Remarks" = "Curator's Remarks";
+"Enter Curator's Remarks..." = "Enter Curator's Remarks...";
+"Original price (optional)" = "Original price (optional)";
+"PERMANENT ARCHIVE" = "PERMANENT ARCHIVE";
+"The Tailor is cutting the pattern..." = "The Tailor is cutting the pattern...";
+"The Tailor is working in the back room..." = "The Tailor is working in the back room...";
+"Click to select photographs" = "Click to select photographs";
+"Tap to change selection" = "Tap to change selection";
+"How bulk import works" = "How bulk import works";
+"Each photo is sent through the local tailor (background removal + colour extraction) and archived as its own specimen. Notes, tags, and prices can be filled in afterwards by tapping any item in the collection." = "Each photo is sent through the local tailor (background removal + colour extraction) and archived as its own specimen. Notes, tags, and prices can be filled in afterwards by tapping any item in the collection.";
+"Some photos could not be processed:" = "Some photos could not be processed:";
+"Bulk import — edit me" = "Bulk import — edit me";
+"Reading the local climate..." = "Reading the local climate...";
+"Tap to read the local climate." = "Tap to read the local climate.";
+"A heavy coat, wool, and layers. Velvet welcomes the cold." = "A heavy coat, wool, and layers. Velvet welcomes the cold.";
+"A wool overcoat over knit; consider trousers over a skirt." = "A wool overcoat over knit; consider trousers over a skirt.";
+"Light layering — a shirt and a jacket will see you through." = "Light layering — a shirt and a jacket will see you through.";
+"A blouse or a linen piece, comfortable in open air." = "A blouse or a linen piece, comfortable in open air.";
+"Linen, cotton, silks in light weaves. Leave the wool at home." = "Linen, cotton, silks in light weaves. Leave the wool at home.";
+"The lightest cottons and linens. Pale pigments reflect the sun." = "The lightest cottons and linens. Pale pigments reflect the sun.";
+"Keep your trousseau close, or carry it with you." = "Keep your trousseau close, or carry it with you.";
+"I. The Purpose" = "I. The Purpose";
+"II. The Mechanism" = "II. The Mechanism";
+"III. Usage Instructions" = "III. Usage Instructions";
+"IV. Paper Atelier" = "IV. Paper Atelier";
+"V. Archives & Cipher" = "V. Archives & Cipher";
+"In an age of ephemeral data, **The Ethereal Trousseau** serves as a permanent digital sanctuary for textile artistry. It is designed to catalog, preserve, and display the silhouette of garments, stripping away the noise of the physical world to reveal the essence of the design." = "In an age of ephemeral data, **The Ethereal Trousseau** serves as a permanent digital sanctuary for textile artistry. It is designed to catalog, preserve, and display the silhouette of garments, stripping away the noise of the physical world to reveal the essence of the design.";
+"This archive utilizes on-device neural processing via Apple's Vision framework. Upon the acquisition of a new image (Capture), the system autonomously isolates the subject from its surroundings (Segmentation), centers the geometry, and mounts it upon a standardized parchment canvas. No data leaves this device; privacy is absolute." = "This archive utilizes on-device neural processing via Apple's Vision framework. Upon the acquisition of a new image (Capture), the system autonomously isolates the subject from its surroundings (Segmentation), centers the geometry, and mounts it upon a standardized parchment canvas. No data leaves this device; privacy is absolute.";
+"**To Archive:** Tap the central \"+\" button on the navigation ribbon. Choose a photograph. The automated tailor will process the garment on-device in seconds." = "**To Archive:** Tap the central \"+\" button on the navigation ribbon. Choose a photograph. The automated tailor will process the garment on-device in seconds.";
+"**To Observe:** Browse the Collection. Tap any specimen to view the Curator's detailed remarks, edit tags, and log a wear." = "**To Observe:** Browse the Collection. Tap any specimen to view the Curator's detailed remarks, edit tags, and log a wear.";
+"Tune the warmth, depth and grain of the parchment to your taste. The change applies across every screen instantly." = "Tune the warmth, depth and grain of the parchment to your taste. The change applies across every screen instantly.";
+"Export the entire trousseau — every specimen, journal entry, packing list, and photo — into a single .json you can keep in Files, iCloud, or email to yourself. Or restore a previous export to overwrite the current collection." = "Export the entire trousseau — every specimen, journal entry, packing list, and photo — into a single .json you can keep in Files, iCloud, or email to yourself. Or restore a previous export to overwrite the current collection.";
+"Est. 2024 — A Personal Collection" = "Est. 2024 — A Personal Collection";
+"Warmth" = "Warmth";
+"Darkness" = "Darkness";
+"Texture" = "Texture";
+"Done" = "Done";
+"These three dials shape every screen at once. Choose between a clean, crisp page and one that looks like it survived a small fire." = "These three dials shape every screen at once. Choose between a clean, crisp page and one that looks like it survived a small fire.";
+"Search Archives..." = "Search Archives...";
+"Archive New Specimen" = "Archive New Specimen";
+"Open journal" = "Open journal";
+"Open packing lists" = "Open packing lists";
+"Bulk import photos" = "Bulk import photos";
+"All" = "All";
+"Favorites" = "Favorites";
+"Wishlist" = "Wishlist";
+"Collection Empty" = "Collection Empty";
+"Press \"+\" to archive." = "Press \"+\" to archive.";
+"MARK TODAY AS WORN" = "MARK TODAY AS WORN";
+"COST / WEAR" = "COST / WEAR";
+"WORN" = "WORN";
+"LAST" = "LAST";
+"COST" = "COST";
+"WEAR" = "WEAR";
+"Purchase Ledger" = "Purchase Ledger";
+"Purchase Price (CNY)" = "Purchase Price (CNY)";
+"Save Price" = "Save Price";
+"Never worn" = "Never worn";
+"Today" = "Today";
+"Yesterday" = "Yesterday";
+"Favorite" = "Favorite";
+"On wishlist" = "On wishlist";
+"Not on wishlist" = "Not on wishlist";
+"Today's wear already logged." = "Today's wear already logged.";
+"Logged today as worn." = "Logged today as worn.";
+"Archive" = "Archive";
+"Census of the Wardrobe" = "Census of the Wardrobe";
+"A statistical view of what you own." = "A statistical view of what you own.";
+"Most Worn" = "Most Worn";
+"Least Worn" = "Least Worn";
+"Dormant" = "Dormant";
+"Archived but never worn." = "Archived but never worn.";
+"Dominant Pigments" = "Dominant Pigments";
+"Tinted swatches of the wardrobe's most recurring hues." = "Tinted swatches of the wardrobe's most recurring hues.";
+"Specimens by Pigment" = "Specimens by Pigment";
+"No specimens match this colour." = "No specimens match this colour.";
+"Trip Title" = "Trip Title";
+"e.g. Kyoto Autumn" = "e.g. Kyoto Autumn";
+"Dates" = "Dates";
+"Clear" = "Clear";
+"Start" = "Start";
+"End" = "End";
+"set" = "set";
+"Specimens" = "Specimens";
+"Save" = "Save";
+"Untitled trip" = "Untitled trip";
+
+/* Settings / Paper Atelier */
+"Tune the surface to your taste" = "Tune the surface to your taste";
+"Preview" = "Preview";
+"Specimen No. 12" = "Specimen No. 12";
+"RESET TO DEFAULTS" = "RESET TO DEFAULTS";
+"Depth" = "Depth";
+"Paper Texture" = "Paper Texture";
+"Cool ivory at 0, warm amber at 1." = "Cool ivory at 0, warm amber at 1.";
+"Light parchment at 0, candlelit at 1." = "Light parchment at 0, candlelit at 1.";
+"Smooth printing at 0, full fibre grain at 1." = "Smooth printing at 0, full fibre grain at 1.";
+"Cool" = "Cool";
+"Warm" = "Warm";
+"Light" = "Light";
+"Deep" = "Deep";
+"Smooth" = "Smooth";
+"Rough" = "Rough";
+
+/* Census */
+"The Census" = "The Census";
+"TOTAL SPECIMENS ARCHIVED" = "TOTAL SPECIMENS ARCHIVED";
+"Dominant Categories" = "Dominant Categories";
+"No tags yet." = "No tags yet.";
+"The Oracle" = "The Oracle";
+"Unsure of today's attire? Let the spirits decide." = "Unsure of today's attire? Let the spirits decide.";
+"CONSULT THE ORACLE" = "CONSULT THE ORACLE";
+"TAP A SWATCH" = "TAP A SWATCH";
+"Archive specimens to populate the palette." = "Archive specimens to populate the palette.";
+
+/* Specimen detail */
+"PIGMENT ANALYSIS" = "PIGMENT ANALYSIS";
+"Worn" = "Worn";
+"Discard" = "Discard";
+"Required for cost-per-wear calculations." = "Required for cost-per-wear calculations.";
+"Specimen not found" = "Specimen not found";
+
+/* Other chrome */
+"No. %lld" = "No. %lld";
+"Collection" = "Collection";
+"Collage" = "Collage";
+"Census" = "Census";
+"About" = "About";
+"#%@" = "#%@";
+"set" = "set";
+"%@ of %@" = "%@ of %@";

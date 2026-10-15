@@ -1,0 +1,15 @@
+# Python build / cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+
+# Auto-generated runtime data — wardrobe_db.json lives in this folder
+# only by accident (older versions of the project shipped it that way).
+wardrobe_db.json
+
+# OS noise
+.DS_Store
